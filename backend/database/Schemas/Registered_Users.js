@@ -33,6 +33,6 @@ attachPasswordHashing(RegisteredUsersSchema);
 
 const RegisteredUsers =
   mongoose.models.RegisteredUsers ??
-  mongoose.model("RegisteredUsers", RegisteredUsersSchema);
+  mongoose.model("Registered Users", RegisteredUsersSchema);
 
 export default RegisteredUsers;
